@@ -8,12 +8,21 @@ public class Main {
                 TomekZ tz = new TomekZ();
                 tz.CubeCapacity(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
                 break;
+            case "michalz":
+                MichalZ mz = new MichalZ();
+                mz.plusTwoNumbers(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
+                break;
             //Tu dodaj swój kod
 
             default:
                 KubaM kmInstructions = new KubaM();
                 kmInstructions.showInstructions();
+
+                MichalZ mzInstruction = new MichalZ();
+                mzInstruction.showInstructions();
                 //Tu dodaj swoje instrukcje
         }
+
     }
 }
+
