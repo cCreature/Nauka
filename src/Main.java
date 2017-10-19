@@ -4,6 +4,9 @@ public class Main {
             case "kubam":
                 KubaM km = new KubaM();
                 km.squareField(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
+            case "tomekz":
+                TomekZ tz = new TomekZ();
+                tz.CubeCapacity(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
                 break;
             //Tu dodaj swój kod
 
