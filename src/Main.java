@@ -5,8 +5,9 @@ public class Main {
                 KubaM km = new KubaM();
                 km.squareField(Integer.parseInt(args[1]), Integer.parseInt(args[2]));
                 break;
-            //Tu dodaj swój kod
-
+            case "maciekb":
+                MaciekB mb = new MaciekB();
+                mb.showInstructions();
             default:
                 KubaM kmInstructions = new KubaM();
                 kmInstructions.showInstructions();
